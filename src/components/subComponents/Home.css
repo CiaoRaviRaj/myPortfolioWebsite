@@ -1,0 +1,33 @@
+#home .container {
+    background-image: url("./Bg-home.jpg");
+    
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .container h1 {
+    font-size: 55px;
+    font-weight: 900;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#home .container button {
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 20px;
+    color: #fff;
+    background: none;
+    border: 2px solid #fff;
+}
+
+#home .container button:hover {
+    background-color: #fff;
+    color: #111;
+}

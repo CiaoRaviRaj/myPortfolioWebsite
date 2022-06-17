@@ -1,0 +1,48 @@
+#my__works {
+  margin: 20px 0;
+}
+
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.my__work__items {
+  display: flex;
+
+  align-items: center;
+
+  margin: 0 20px;
+
+  overflow: hidden;
+}
+
+.my__work__items > a img,
+.my__work__items > img {
+  width: 100%;
+  padding: 0;
+  height: auto;
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+.my__work__items:hover a img,
+.my__work__items:hover img {
+  cursor: zoom-in;
+  transform: scale(1.5);
+  overflow: hidden;
+}
+
+.popup {
+  width: 100%;
+  height: 100vh;
+  z-index: 100;
+}
+
+.popup img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  left: 50%;
+  top: 50%;
+}
